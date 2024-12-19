@@ -1,0 +1,15 @@
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.display {
+  font-size: 1.5rem;
+  height: 70px;
+}
